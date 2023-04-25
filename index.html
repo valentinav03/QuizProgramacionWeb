@@ -9,8 +9,20 @@
     <style>
         .table{
             margin: 0 auto;
+            border: 1px solid;
         }
 
+        h1{
+            text-align: center;
+        }
+
+        tr{
+            height: 50px;
+        }
+
+        .btn{
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -31,9 +43,14 @@
           </div>
         </div>
       </nav>
+      <br>
+      <br>
+      <div class="container">
       <h1>LISTA CLIENTES</h1>
+      <br>
+      <br>
       <div style="text-align:center;">
-      <table class="table">
+      <table class="table table-responsive">
         <thead>
           <tr>
             <th scope="col">DOCUMENTO</th>
@@ -47,7 +64,8 @@
             <th scope="row">10887282</th>
             <td>CAMILO</td>
             <td>PLAZA</td>
-            <td><button type="button" class="btn btn-light">DETALLES</button><button type="button" class="btn btn-light">ELIMINAR</button></td>
+            <td><button type="button" class="btn btn-light">DETALLES</button>
+                <button type="button" class="btn btn-light">ELIMINAR</button></td>
           </tr>
           <tr>
             <th scope="row"></th>
@@ -68,6 +86,7 @@
           </tr>
         </tbody>
       </table>
+        </div>
       </div>
 </body>
 </html>
